@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Gloria+Hallelujah&family=Rampart+One&display=swap');
+
+#landing_page{
+    background-color:rgb(68, 178, 228);
+}
+
+header {
+    display: block;  
+    height: 10vw;
+    background-color: green;
+    width: 100%;
+    
+}
+nav {
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color:rgb(68, 178, 228);
+    display: block;
+    height: 10vw; 
+    width: 100%;
+   
+}
+
+nav a{
+    top: 0;
+    bottom: 0;
+}
+
+h1 {
+    font-family: 'Rampart One', cursive;
+    font-size: 5vw;
+    color: rgb(124, 228, 68)
+}
+
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+
+}
