@@ -1,20 +1,51 @@
 "use strict";
-window.addEventListener("DOMContentLoaded", loadSVG);
+window.addEventListener("DOMContentLoaded", start);
 
-function loadSVG() {
-  console.log("load the SVG");
+function start() {
+  /* loadSVG(); */
+  loadSection();
+  /* hideNavOnScroll(); */
+}
 
-  fetch("images/background-01.svg")
+function loadSection() {
+  document.querySelectorAll("object").forEach((object) => {
+    console.log(object.className);
+    loadSVG(object.className);
+  });
+}
+
+function loadSVG(svgId) {
+  console.log("loading " + svgId);
+  fetch(`assets/${svgId}.svg`)
     .then((response) => response.text())
     .then((svgData) => {
       console.log("SVG loaded");
-      document.querySelector("#background_svg").innerHTML = svgData;
-      // TODO: put the SVG into the DOM
-      // TODO: Start the animation
-      changeIdOnPaths(svgData);
-      editSVG();
+      document.querySelectorAll(`.${svgId}`).forEach((svg) => {
+        svg.innerHTML = svgData;
+      });
     });
 }
+
+/* 
+function hideNavOnScroll() {
+  let lastKnownScrollPosition = 0;
+  let newScrollPosition = 0;
+
+  document.addEventListener("scroll", function (e) {
+    lastKnownScrollPosition = newScrollPosition;
+    newScrollPosition = window.scrollY;
+
+    if (lastKnownScrollPosition > newScrollPosition) {
+      console.log("scrolling up");
+      document.querySelector("header").style.opacity = "0";
+    }
+    if (lastKnownScrollPosition < newScrollPosition) {
+      console.log("scrolling down");
+      document.querySelector("header").style.opacity = "100";
+    }
+  });
+}
+
 
 function changeIdOnPaths(svg) {
   let i = 1;
@@ -29,7 +60,6 @@ function changeIdOnPaths(svg) {
 
 function editSVG() {
   console.log("editing svg");
-
   addShadowsToPaths();
 }
 

@@ -1,0 +1,300 @@
+*{
+    max-width: 100%;
+    margin: 0;
+}
+
+h1{
+    font-size: 7vw;
+}
+
+h2 {
+    font-size: 3.5vw;
+}
+
+body {
+    background-color:burlywood;
+}
+header{
+    top: -4vw;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    right: 5vw;
+    top: 6vw;
+}
+
+#logo {
+    left: 3vw;
+    width: 4vw;
+    position: absolute;
+     top: 6vw; 
+}
+
+#logo img {
+    
+}
+
+#landing_page {
+    padding-bottom: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    position: relative;
+}
+/*  #welcome_boks_logo_svg{
+    width: 100%;
+    position: relative;
+}  */
+
+#landing_page h1 {
+    position: absolute;
+    top: 3vw;
+    left: 32vw;
+}
+#intro_tekst h2{
+    position: absolute;
+    top: 14vw;
+    left: 33vw;
+}
+
+.content_section {
+    width: 95vw;
+    padding-bottom: 10vw;
+    position: relative;
+}
+
+#internship h1 {
+   position: absolute;
+   top: 5vw;
+   left: 20vw;
+}
+
+#internship h2 {
+    position: absolute;
+    top: 20vw;
+    left: 10vw;
+}
+
+#internship p {
+    
+}
+
+#internship{
+    width: 88vw;
+}
+
+#internship, #portfolio {
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+
+#about {
+    margin-right: auto; 
+    margin-left: 0;
+}
+
+#about h2 {
+    font-size: 5vw;
+}
+
+#about h1 {
+   position: absolute;
+   top: 5vw;
+   text-align: center;
+   width: 100%;
+}
+
+#intro {
+position:absolute;
+top: 30vw;
+left: 8vw;
+width: 75vw;
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+#content_picture_headline{
+position: relative;
+}
+
+#content_picture_headline h2{
+    position: absolute;
+    top: 1vw;
+    left: 5vw;
+    }
+
+#cv {
+    position: absolute;
+    top: 70vw;
+    width: 77vw;
+    left: 11vw;
+}
+
+#cv h2 {
+    
+    position: absolute;
+    top: 5vw;
+    left: 33vw;
+}
+#cv #tekst_wrapper_cv {
+    position: absolute;
+    top: 20vw;
+    left: 10vw;
+}
+
+
+#contact {
+    position: absolute;
+    top: 120vw;
+    width: 78vw;
+    left: 5vw;
+}
+
+#contact h2 {
+    position: absolute;
+    top: 6vw;
+    left: 30vw;
+}
+
+#contact_content {
+    position: absolute;
+    top: 20vw;
+    left: 15vw;
+}
+
+#portfolio {
+    position: relative;
+}
+
+#portfolio_background {
+    height: 20vw;
+}
+
+#portfolio h1 {
+    position: absolute;
+    top: 5vw;
+    left: 27vw;
+}
+
+#portfolio_intro {
+    position: absolute;
+    top: 20vw;
+    left: 10vw;
+    width: 75%;
+}
+
+#content_01 {
+    width: 77vw;
+    position: absolute;
+    top: 33vw;
+    left: 4vw;
+}
+
+#content_01 h2 {
+    position: absolute;
+    top: 6vw;
+    left: 27vw;
+}
+
+#content_01 h3 {
+    position: absolute;
+    top: 16vw;
+    left: 15vw;
+    width: 53vw;
+}
+
+#project_picture_headline{
+    width: 24vw;
+    position: absolute;
+    top: 24vw;
+    left: 9vw;
+}
+
+
+
+#content_02 {
+    width: 77vw;
+    position: absolute;
+    top: 88vw;
+    right: 8vw;
+}
+
+#content_02 h2 {
+    position: absolute;
+    top: 6vw;
+    left: 27vw;
+}
+
+#content_02 h3 {
+    position: absolute;
+    top: 16vw;
+    left: 15vw;
+    width: 53vw;
+}
+
+#project_picture_headline_02{
+    width: 24vw;
+    position: absolute;
+    top: 23vw;
+    right: 8vw;
+}
+
+
+#content_03 {
+    width: 77vw;
+    position: absolute;
+    top: 140vw;
+    left: 3vw;
+}
+
+#content_03 h2 {
+    position: absolute;
+    top: 6vw;
+    left: 27vw;
+}
+
+#content_03 h3 {
+    position: absolute;
+    top: 16vw;
+    left: 15vw;
+    width: 53vw;
+}
+
+#project_picture_headline_03{
+    width: 24vw;
+    position: absolute;
+    top: 24vw;
+    left: 9vw;
+}
+
+
+
+#content_04 {
+    width: 77vw;
+    position: absolute;
+    top: 195vw;
+    right: 4.5vw;
+}
+
+#content_04 h2 {
+    position: absolute;
+    top: 6vw;
+    left: 27vw;
+}
+
+#content_04 h3 {
+    position: absolute;
+    top: 16vw;
+    left: 15vw;
+    width: 53vw;
+}
+
+#project_picture_headline_04{
+    width: 24vw;
+    position: absolute;
+    top: 23vw;
+    right: 8vw;
+}
