@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Gloria+Hallelujah&family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Gloria+Hallelujah&family=Rampart+One&display=swap');
 *{
     z-index: 1000;
     position: relative;
@@ -132,4 +132,3 @@ width: 100%;
     width: 20vw;
     overflow: hidden;
 }
- */
